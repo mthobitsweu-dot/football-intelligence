@@ -1,0 +1,27 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Local SQLite databases
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Raw historical match datasets (preserve data/raw/.gitkeep)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+!data/raw/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+# Football Intelligence
+# Python 3.12+
+#
+# Stage 1.1 uses Python's built-in standard library (sqlite3, unittest, json, datetime).
+# Zero external packages are required for Stage 1.1.
+#
+# Future stages will introduce dependencies only as strictly needed:
+# Stage 1.2: pandas (for efficient CSV parsing of historical match data)
+# Stage 1.4: scipy / numpy (for Poisson distributions and form math)
+# Stage 1.6: fastapi, uvicorn, jinja2 (for lightweight mobile web UI)
